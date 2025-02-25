@@ -18,7 +18,7 @@ import { useQuery, useMutation, useQueryClient } from 'react-query';
 import type { Game, Category } from '../../types';
 
 // Hardcoded admin credentials
-const ADMIN_EMAIL = 'admin@admin.com';
+const ADMIN_EMAIL = 'admin@example.com';
 const ADMIN_PASSWORD = 'admin';
 
 const PAGE_SIZE = 10;
