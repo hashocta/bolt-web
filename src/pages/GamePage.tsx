@@ -1,3 +1,4 @@
+// src/pages/GamePage.tsx
 import { useEffect, useState, useRef } from 'react';
 import { useParams } from 'react-router-dom';
 import { motion } from 'framer-motion';
@@ -126,7 +127,7 @@ export function GamePage() {
       <script type="application/ld+json">
         {JSON.stringify(structuredData)}
       </script>
-      
+
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
